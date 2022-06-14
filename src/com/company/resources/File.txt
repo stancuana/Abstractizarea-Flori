@@ -1,0 +1,4 @@
+1,Trandafir,rosu,10,dulce,cu tepi,japonez
+2,Lalea,alba,4,acrisor,bulb
+3,Trandafir,negru,5,dulce,cu tepi,japonez
+4,Lalea,rosie,11,acrisor,floare
