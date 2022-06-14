@@ -25,5 +25,16 @@ public class ControlFlori{
         }
     }
 
+    public void addFloare(Floare floare){
+
+        Utile.addObject(floare,listaFlori);
+    }
+
+    public int nrElemLista(){
+
+        int nr=listaFlori.size();
+        return nr;
+    }
+
 
 }

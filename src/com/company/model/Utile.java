@@ -39,5 +39,12 @@ public  abstract class Utile {
         return null;
     }
 
+    public static void addObject(Object object, ArrayList lista){
+
+        ArrayList<Object> list=lista;
+
+        list.add(object);
+    }
+
 
 }
