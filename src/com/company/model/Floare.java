@@ -86,7 +86,12 @@ public abstract class Floare {
 
     }
 
+    public String formatToSave(){
+        return this.getId()+","+this.getNume()+","+this.getCuloare()+","+this.getNrPetale()+","+this.getTipMiros();
+    }
+
     abstract void numeFloare();
     abstract Object returnFloareById(Object object);
     abstract String culoareFloare();
+
 }

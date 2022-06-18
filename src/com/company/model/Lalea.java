@@ -66,4 +66,9 @@ public class Lalea extends Floare {
         System.out.println("Culoarea florii este: ");
         return this.getCuloare();
     }
+
+    @Override
+    public String formatToSave(){
+        return super.formatToSave()+","+this.getStadiuDeDezvoltare();
+    }
 }

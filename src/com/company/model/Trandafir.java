@@ -36,6 +36,11 @@ public class Trandafir extends Floare{
         this.specieTrandafir = specieTrandafir;
     }
 
+    @Override
+    public String formatToSave(){
+
+        return super.formatToSave()+","+this.getTipTulpina()+","+this.getSpecieTrandafir();
+    }
 
     @Override
     public String toString(){

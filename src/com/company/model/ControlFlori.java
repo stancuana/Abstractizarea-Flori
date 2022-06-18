@@ -32,8 +32,12 @@ public class ControlFlori{
 
     public int nrElemLista(){
 
-        int nr=listaFlori.size();
-        return nr;
+        return Utile.nrObiecteInLista(listaFlori);
+    }
+
+    public int nextAvailableId(){
+
+        return Utile.nextAvailableId(listaFlori);
     }
 
 
